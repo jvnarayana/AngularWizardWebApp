@@ -28,16 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/bootstrap/dist/css/boostrap.css",
-              "node_modules/font-awesome/dist/css/boostrap.css"
-            
-              
+              "src/styles.scss"
             ],
             "scripts": [
-              "node-modules/jquery/dist/jquery.js",
-              "node_modules/popper.js/dist/umdpopper.js",
-              "node_modules/bootstrap/dist/js/boostrap.js"
             ]
           },
           "configurations": {
@@ -131,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularWizardApp"
+    }
+  },
+  "defaultProject": "AngularWizardApp",
+  "cli": {
+    "analytics": false
+  }
 }
